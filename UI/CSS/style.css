@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    background-color: #272727;
+    color: white;
+}
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 22px;
+    height: 6vh;
+    background-color:#313131;
+    color: white;
+    box-shadow: 0px 0px 2px #444444;
+}
+header nav {
+    margin-left:18px;
+}
+header nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+header nav ul li {
+    display: inline;
+    padding: 6px;
+    font-size:1.1rem;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: dodgerblue;
+}
+header nav ul li:hover {
+    color: dodgerblue;
+    text-shadow: none;
+}
+header .logo span {
+        font-size:50px;
+        font-weight: bolder;
+}
+main {
+    width: 45%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.paragraph {
+    width: 100%;
+}
+hr {
+    width: 90%;
+    background-color: #353535;
+    height: 3px;
+    border: none;
+    margin-bottom: 15px;
+}
+main .header h1 {
+    font-size: 320px;
+    font-weight: bolder;
+    margin: 10px auto;
+}
+main .paragraph .btns {
+    width: 100%;
+}
+main .paragraph .btns a button{
+    width: 35%;
+    background-color: #272727;
+    border:1px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+    padding: 14px 0px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    transition: 0.48s;
+    margin-top: 12px;
+}
+main .paragraph .btns a button:hover{
+    background-color: rgb(255, 217, 0);
+    box-shadow:0px 2px 2px rgb(255, 145, 0);
+    color: black;
+    border: none
+}
+main .paragraph .btns a button:active {
+    box-shadow: none;
+}
